@@ -1,0 +1,8 @@
+# required for real hardware (use hidapi - NOT the unrelated package named "hid")
+hidapi>=0.14
+
+# optional: enables the glowing preview and the Screen mirror effect
+pillow>=10.0
+
+# optional: faster screen capture for the Screen mirror effect
+mss>=9.0
