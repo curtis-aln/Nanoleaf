@@ -23,7 +23,7 @@ CMD_GET_MODEL = 0x0C
 EVT_BUTTON = 0x85  # unsolicited event from the strip's physical button
 
 DEFAULT_ZONES = 75
-DEFAULT_FPS = 30
+DEFAULT_FPS = 60
 MIN_FPS, MAX_FPS = 5, 60
 
 # Localhost port used purely as a "one copy at a time" lock.
